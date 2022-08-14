@@ -9,4 +9,3 @@ def sum_values_of_num(inp_num):# второе задание
     if inp_num == 0:
         return inp_num
     return inp_num % 10 + sum_values_of_num(inp_num // 10)
-print(sum_values_of_num(123456789))
